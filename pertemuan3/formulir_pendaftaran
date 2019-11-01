@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulir pendaftaran</title>
+</head>
+<body>
+	<form method="POST" action="">
+		<TABLE>
+			<tr>
+				<td>No.Pendaftaran</td>
+				<td>:</td>
+				<td><input type="text" name="no_pendaftaran" value=""></td>
+			</tr>
+			<tr>
+				<td>Program Studi</td>
+				<td>:</td>
+				<td>
+					<select name="Program_studi">
+						<option value="" selected="selected">--Pilih Salah Satu</option>
+						<option value="MI">Manajemen Informatika</option>
+						<option value="TI">Teknik Informatika</option>
+						<option value="SI">Sistem Informatika</option>
+						<option value="AK">Akutasnsi</option>
+						<option value="MA">Manajemen Admministrasi</option>
+						<option value="SK">Sekertaris</option>	
+					</select>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>nama</td>
+				<td>:</td>
+				<td><input type="text" name="nama_siswa" value=""></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="Jenis_kelamin" value="Laki-Laki" checked>Laki-Laki
+					<input type="radio" name="Jenis_kelamin" value="Perempuan"> Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir</td>
+				<td>:</td>
+				<td><input type="text" name="tempat_lahir" value=""></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td>:</td>
+				<td><input type="date" name="tanggal_lahir" value=""></td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>:</td>
+				<td>
+					<select name="agama">
+						<option value="" selected="selected">--Pilih Salah Satu</option>
+						<option value="islam">islam</option>
+						<option value="kristen">kristen</option>
+						<option value="hindu">hindu</option>
+						<option value="katolik">katolik</option>
+						<option value="budha">budha</option>
+						<option value="konghucu">konghucu</option>	
+					</select>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td>
+					<textarea rows="4" cols="50" name="alamat"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>No.Telp</td>
+				<td>:</td>
+				<td><input type="text" name="nomor_telepon" value=""></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td><input type="text" name="email" value=""></td>
+			</tr>
+			<tr>
+				<td colspan="2"></td>
+				<td>
+				<input type="submit" value="simpan">
+				<input type="reset" value="batal">
+					
+				</td>
+			</tr>
+
+		</TABLE> 
+		
+	</form>
+</body>
+<!-- <?php 
+	// if (isset($_POST["nama_siswa"])){
+	// 	$nama_siswa = $_POST["nama_siswa"];
+	// }else {
+	// 	$nama_siswa = "NULL";
+	// }
+	// if (isset($_POST["kelas"])) {
+	// 	$kelas = $_POST["kelas"];
+	// }else{
+	// 	$kelas = "NULL";
+	// }
+	// echo "$nama_siswa : $kelas";
+?>
+
+</html>
