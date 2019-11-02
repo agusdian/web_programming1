@@ -22,7 +22,7 @@ $hasil = ambil_data("select * from mahasiswa");
         <table border="1" cellpadding="10" cellspacing="0">
             <tr>
                 <th>Aksi</th>
-                <th>NpM</th>
+                <th>Npm</th>
                 <th>Nama</th>
                 <th>Jurusan</th>
                 <th>Email</th>

@@ -32,9 +32,9 @@ $hasil = mysqli_query($conn, $query) or die(mysql_error($conn));
             <?php while ($row = mysqli_fetch_assoc($hasil)) : ?>
                 <tr>
                     <td>
-                        <a href="ubah_mahasiswa.php?nim=<?php echo $row["npm"]; ?>">Ubah</a>
+                        <a href="ubah_mahasiswa.php?npm=<?php echo $row["npm"]; ?>">Ubah</a>
                         |
-                        <a href="hapus_mahasiswa.php?nim=<?php echo $row["npm"]; ?>">Hapus</a>
+                        <a href="hapus_mahasiswa.php?npm=<?php echo $row["npm"]; ?>">Hapus</a>
                     </td>
                     <td><?php echo $row["npm"]; ?></td>
                     <td><?php echo $row["nama"]; ?></td>

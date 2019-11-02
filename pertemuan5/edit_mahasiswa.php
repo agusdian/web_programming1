@@ -1,7 +1,7 @@
 <?php
 include "config/koneksi.php";
 
-$nim = $_POST["npm_asal"];
+$npm = $_POST["npm"];
 $nama = $_POST["nama_mhs"];
 $email = $_POST["email_mhs"];
 $jurusan = $_POST["jurusan"];

@@ -14,7 +14,7 @@
             <tr>
                 <th>No.</th>
                 <th>Aksi</th>
-                <th>NpM</th>
+                <th>Npm</th>
                 <th>Nama</th>
                 <th>Jurusan</th>
                 <th>Email</th>

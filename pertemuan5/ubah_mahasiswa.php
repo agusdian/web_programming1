@@ -1,6 +1,6 @@
 <?php
 include "config/koneksi.php";
-$npm_asal = $_GET["id"];
+$npm_asal = $_GET["npm"];
 
 $sql = "select * from mahasiswa where npm = '$npm_asal'";
 $hasil = mysqli_query($conn, $sql);
@@ -21,10 +21,7 @@ $result = mysqli_fetch_assoc($hasil);
                 <td>Npm</td>
                 <td>:</td>
                 <td>
-                    <input type="text" name="npm" value="<?php echo $result["npm"]; ?>" disabled>
-                </td>
-            </tr>
-            <tr>
+                    <input type="text" name="npm" value="<?php echo $result["npm"]; ?>" readonly </td> </tr> <tr>
                 <td>Nama</td>
                 <td>:</td>
                 <td>
